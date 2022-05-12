@@ -1,0 +1,9 @@
+{
+	"Id":"B1",
+	"Summary":"404 error is displayed",
+	"Preconditions":" ",
+	"Steps to reproduce":"1. Go to http://www.example.com, 2. Click on Login button",
+  "Actual Result":"404 error is displayed",
+  "Expected Result":"Authorization page is opened",
+  "Attachments":"http://prntscr.com/ic93kw"
+}
