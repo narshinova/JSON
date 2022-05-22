@@ -1,14 +1,13 @@
 # JSON
-<h1 align="center">GIT HW_1/JSON</h1>
+<h2 align="center">GIT HW_1/JSON</h2>
 
 **1.Создать внешний репозиторий c названием JSON.**
-```
-веб интерфейс github.com, залогинитьс, перейти в Repositories, создание новой репозитории New, имя JSON, Add a ReadMe file, Create repository
-```
-**2. Клонировать репозиторий JSON на локальный компьютер.**
-```
-в веб интерфейсе Code - HTTPS - COPY
 
+<i>веб интерфейс github.com, залогинитьс, перейти в Repositories, создание новой репозитории New, имя JSON, Add a ReadMe file, Create repository</i>
+
+**2. Клонировать репозиторий JSON на локальный компьютер.**
+<i>в веб интерфейсе Code - HTTPS - COPY</i>
+```
 git clone https://github.com/narshinova/JSON.git
 ```
 **3. Внутри локального JSON создать файл “new.json”.**
@@ -77,29 +76,29 @@ vim skills.json
         "skill 2.":"Что такое клиент-серверная архитектура.",
         "skill 3.":"HTTP Методы запросов на сервер.",
         "skill 4.":"Коды ответов HTTP сервера.",
-        'skill 5.':'Структуры HTTP запросов и ответов.',
-        'skill 6.':'Что такое JSON, XML. Их структура.',
-        'skill 7.':'Тестирование API через Postman (JS, автотесты API).',
-        'skill 8.':'Снятие и чтение логов c внешнего сервера.',
-        'skill 9.':'Снифинг http web трафика через Charles и Fiddler.',
-        'skill 10.':'Dev Tools веб браузеров (Google Chrome, FireFox).',
-        'skill 11.':'VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)',
-        'skill 12.':'Мобильное тестирование.',
-        'skill 13.':'Особенность iOS, Android, гайдлайны.',
-        'skill 14.':'Сборка iOS приложений на XCode.',
-        'skill 15.':'Сборка Android приложений на Android Studio.',
-        'skill 16.':'ADB (управление андройд девайсами).',
-        'skill 17.':'Настройка прокси и vpn на iOS и Android.',
-        'skill 18.':'Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.',
-        'skill 19.':'Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)',
-        'skill 20.':'Основы bash скриптинг, автоматизация рутинных задач на сервере.',
-        'skill 21.':'Доступ к удалённым серверам.',
-        'skill 22.':'Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).',
-        'skill 23.':'База данных Postgres (установка, настройка и использование).',
-        'skill 24.':'Нереляционная база данных Redis (установка, настройка и использование).',
-        'skill 25.':'Нагрузочное тестирование в Jmeter.',
-        'skill 26.':'Методология разработки Scrum.',
-        'skill 27.':'Python. (Изучение основ. Создание клиент серверного приложения)'
+        "skill 5.":"Структуры HTTP запросов и ответов.",
+        "skill 6.":"Что такое JSON, XML. Их структура.",
+        "skill 7.":"Тестирование API через Postman (JS, автотесты API).",
+        "skill 8.":"Снятие и чтение логов c внешнего сервера.",
+        "skill 9.":"Снифинг http web трафика через Charles и Fiddler.",
+        "skill 10.":"Dev Tools веб браузеров (Google Chrome, FireFox).",
+        "skill 11.":"VPN. (Как работает, зачем нужен, как использовать, варианты инструментов)",
+        "skill 12.":"Мобильное тестирование.",
+        "skill 13.":"Особенность iOS, Android, гайдлайны.",
+        "skill 14.":"Сборка iOS приложений на XCode.",
+        "skill 15.":"Сборка Android приложений на Android Studio.",
+        "skill 16.":"ADB (управление андройд девайсами).",
+        "skill 17.":"Настройка прокси и vpn на iOS и Android.",
+        "skill 18.":"Перехват (сниффинг) мобильного трафика через Charles и Fiddler на iOS и Android.",
+        "skill 19.":"Командная строка (terminal) Linux (копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса)",
+        "skill 20.":"Основы bash скриптинг, автоматизация рутинных задач на сервере.",
+        "skill 21.":"Доступ к удалённым серверам.",
+        "skill 22.":"Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join).",
+        "skill 23.":"База данных Postgres (установка, настройка и использование).",
+        "skill 24.":"Нереляционная база данных Redis (установка, настройка и использование).",
+        "skill 25.":"Нагрузочное тестирование в Jmeter.",
+        "skill 26.":"Методология разработки Scrum.",
+        "skill 27.":"Python. (Изучение основ. Создание клиент серверного приложения)"
 }
 ```
 <i>выйти из vim нажатием Esc :wq Enter</i>
@@ -124,9 +123,9 @@ Create bug_report.json, сохранение Commit changes
 	"Summary":"404 error is displayed",
 	"Preconditions":" ",
 	"Steps to reproduce":"1. Go to http://www.example.com, 2. Click on Login button",
-  "Actual Result":"404 error is displayed",
-  "Expected Result":"Authorization page is opened",
-  "Attachments":"http://prntscr.com/ic93kw"
+        "Actual Result":"404 error is displayed",
+        "Expected Result":"Authorization page is opened",
+        "Attachments":"http://prntscr.com/ic93kw"
 }
 ```
 **16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.**
